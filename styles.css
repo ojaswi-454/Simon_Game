@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(59, 13, 112);
+    align-items: center;
+    text-align: center;
+
+}
+
+#header{
+    padding: 2rem;
+    padding-bottom: 0px;
+    font-family: cursive;
+    color: wheat;
+    font-size: 3rem;
+}
+.row{
+    display: flex;
+justify-content: center;
+}
+.btn{
+    border: black;
+    border-width: 5px;
+    border-style:solid;
+    border-radius: 10%;
+    height: 10rem;
+    width: 10rem;
+    margin: 2rem;
+}
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.game-over{
+    background-color: red;
+    opacity: 0.7;
+}
+.pressed{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
